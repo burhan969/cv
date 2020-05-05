@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form page</title>
+<style>
+body {
+	background-color: white;
+}
+div {
+	background-image: url(https://www.designbolts.com/wp-content/uploads/2013/02/Rose-Grey-Seamless-Patterns-For-Website-Background.jpg);
+	width: 600px; height: 700px;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	left: 350px;
+	box-shadow: 0 0 30px 0;
+	padding: 10px;
+
+}
+h2 {
+	letter-spacing: 10px;
+	padding: 20px;
+	margin: 20px;
+
+	text-decoration: underline;
+
+	border-radius: 20px;
+
+	position: relative;
+
+}
+.first {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	width: 250px;
+}
+.last {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	width: 250px;
+}
+.email {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	width: 250px;
+}
+.contact {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	width: 250px;
+}
+.address {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	width: 250px;
+}
+.gender {
+	padding: 10px;
+	margin: 10px;
+
+}
+.country {
+	padding: 10px;
+	margin: 10px;
+}
+.education {
+	padding: 10px;
+	margin: 10px;
+}
+.comment {
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	width: 250px;
+}
+.button {
+	width: 200px;
+	padding: 10px;
+	border-radius: 20px;
+	background: rgb(8, 154, 211);
+}
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+	<div>
+	<form>
+		<h2>REGISTRATION FORM</h2>
+
+		<input class="first" type="text" name="First" placeholder="first name"><br>
+		<input class="last" type="text" name="Last" placeholder="last name"><br>
+		<input class="email" type="Email" name="mail" placeholder="your email"><br>
+	<input class="contact" type="text" name="contact" placeholder="mobile no."><br>
+
+		<textarea class="address" name="address" placeholder="address" class="lg-input" cols="20" rows="4"></textarea><br>
+
+
+	<label>Gender</label>
+	<input class="gender" type="radio" name="Gender" value="male">male
+	<input class="gender" type="radio" name="Gender" value="female">female<br>
+	<label>country</label>
+	<select class="country" name="country" placeholder="country">
+		<option>pakistan</option>
+		<option>india</option>
+		<option>america</option>
+	</select><br>
+	<label>education</label>
+	<input class="education" type="checkbox" name="education" value="undergrad.">undergrad.
+
+	<input type="checkbox" name="education" value="postgrad.">postgrad.
+	<input type="checkbox" name="education" value="diploma">diploma
+	<input type="checkbox" name="education" value="Ph.D">Ph.D
+
+<br>
+	<textarea class="comment" name="notes" cols="20" rows="4" placeholder="comments"></textarea>
+<br>
+<button class="button" type="submit">register</button>
+
+</form>
+</div>
+</body>
+</html>
